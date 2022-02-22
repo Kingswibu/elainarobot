@@ -32,7 +32,7 @@ async def repo(_, message):
         photo=MEMEK,
         caption=f"""✨ **Hey I'm Elaina Robot** 
 
-**Owner repo : [iki](https://t.me/kingswibu)**
+**Owner repo : [iki](https://t.me/skytrixsz)**
 **Python Version :** `{y()}`
 **Library Version :** `{o}`
 **Telethon Version :** `{s}`
@@ -46,7 +46,7 @@ async def repo(_, message):
                     InlineKeyboardButton(
                         "Repo", url="https://github.com/cipokmemekenak/wikwikser"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/wibuscout")
+                        "Support", url="https://t.me/listrobotzz")
                 ]
             ]
         )
