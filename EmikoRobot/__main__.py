@@ -84,11 +84,11 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *ʜᴀʟʟᴏ {} !*
 ⌬ ᴀᴋᴜ ᴀᴅᴀʟᴀʜ ʀᴏʙᴏᴛ ʙᴇʀᴛᴇᴍᴀ ᴀɴɪᴍᴇ[✨](https://telegra.ph/file/c2f3e99f05abae6765965.jpg)
-⌬ ɴᴀᴍᴀ ᴋᴜ [ᴇʟᴀɪɴᴀ ʙᴏᴛ](https://t.me/Elaina_k_robot)
+⌬ ɴᴀᴍᴀ ᴋᴜ [ᴇʟᴀɪɴᴀ ʙᴏᴛ](https://t.me/Elainaqrobot)
 ꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻ
 ⌑ *ᴡᴀᴋᴛᴜ ᴀᴋᴛɪғ:* `{}`
 ⌑ `{}` *ᴘᴇɴɢɢᴜɴᴀ, ᴅɪsᴇʟᴜʀᴜʜ* `{}` *ᴏʙʀᴏʟᴀɴ.*
-⌑ *ᴏᴡɴᴇʀ:* [ᴏᴡɴ ᴇʟᴀɪɴᴀ](https://t.me/kingswibu)
+⌑ *ᴏᴡɴᴇʀ:* [ᴏᴡɴ ᴇʟᴀɪɴᴀ](https://t.me/skytrixsz)
 ꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻꕻ
 ᯽ ɢᴜɴᴀᴋᴀɴ ᴘᴇʀɪɴᴛᴀʜ /help ᴜɴᴛᴜᴋ
 ᯽ ᴍᴇʟɪʜᴀᴛ ᴘᴇʀɪɴᴛᴀʜ ʟᴀɪɴ ɴʏᴀ.
@@ -113,11 +113,12 @@ buttons = [
 
 HELP_STRINGS = """
 ᴋʟɪᴋ ᴘᴇʀɪɴᴛᴀʜ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴅᴀɴ ʟɪʜᴀᴛ ᴋᴇ ɢᴜɴᴀᴀɴ ɴʏᴀ [🌟](https://telegra.ph/file/c2f3e99f05abae6765965.jpg)
-ᴏᴡɴᴇʀ : @kingswibu
-ʟɪsᴛ ʙᴏᴛ : @ikilistbot."""
+ᴏᴡɴᴇʀ : @skytrixsz
+sᴜᴘᴘᴏʀᴛ ɢʀᴜᴘ : [Grup](https://t.me/+4RmOJ-Nw7fZmNDI1)
+."""
 
 
-DONATE_STRING = """ᴛɪᴅᴀᴋ ᴍᴇɴᴇʀɪᴍᴀ ᴅᴏɴᴀsɪ : @kingswibu."""
+DONATE_STRING = """ᴛɪᴅᴀᴋ ᴍᴇɴᴇʀɪᴍᴀ ᴅᴏɴᴀsɪ : @skytrixsz."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -443,8 +444,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/wibuscout"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/ikilistbot"),
+                    InlineKeyboardButton(text="Owner", url="t.me/skytrixsz"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/listrobotzz"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -463,8 +464,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ʟɪsᴛ ʙᴏᴛ", url="https://t.me/ikilistbot"),
-                    InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/kingswibu"),
+                    InlineKeyboardButton(text="ʟɪsᴛ ʙᴏᴛ", url="https://t.me/listrobotzz"),
+                    InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/skytrixz"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
